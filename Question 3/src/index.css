@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background-image: url(../src/imgs/background.jpg);
+  background-size: cover;
+  background-position: top center;
+  
+  
+};
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.my-form > div > label {
+  color: black;
+  font-weight: bolder;
+}
+
+.height-div {
+  height: 100px;
+}
+/* @media(min-width: 768px) {
+  .login-box {
+    top: -50%;
+    transform: translate(0%, -60%);
+  }
+} */

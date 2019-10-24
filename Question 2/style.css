@@ -1,0 +1,20 @@
+body {
+    font-size: 0.95em;
+    display: flex;
+    justify-content: center;
+}
+
+.first-div {
+    background-color: blue;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-div {
+    background-color: lightblue;
+    height: 100px;
+    width: 200px;
+    color:black;
+}

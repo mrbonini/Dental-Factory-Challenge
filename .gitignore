@@ -1,0 +1,22 @@
+# dependencies
+/Question 3/node_modules
+/Question 3/.pnp
+/Question 3.pnp.js
+/Question 3/.gitignore
+
+# testing
+/Question 3/coverage
+
+# production
+/Question 3/build
+
+# misc
+/Question 3/.DS_Store
+/Question 3/.env.local
+/Question 3/.env.development.local
+/Question 3/.env.test.local
+/Question 3/.env.production.local
+
+/Question 3/npm-debug.log*
+/Question 3/yarn-debug.log*
+/Question 3/yarn-error.log*
