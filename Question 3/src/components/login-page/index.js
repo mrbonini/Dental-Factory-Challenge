@@ -10,16 +10,16 @@ function Login() {
 
         let myForm = document.querySelector('#myForm');
         let registeredUser = "mrbonini";
-        let registeredPassword = "Kaique123"
+        let registeredPassword = "Kaique123";
         let inputedUser = myForm.login.value;
         let inputedPassword = myForm.password.value;
 
-        if(inputedUser == registeredUser && inputedPassword == registeredPassword) {
+        if(inputedUser === registeredUser && inputedPassword === registeredPassword) {
             alert(`Bem vindo ao Sistema Dr. ${inputedUser}`);
             setState(DataPatient)
-        } else if(inputedUser != registeredUser && inputedPassword != registeredPassword) {
+        } else if(inputedUser !== registeredUser && inputedPassword !== registeredPassword) {
             alert("Login e Senha inválidos!");
-        } else if(inputedUser != registeredUser) {
+        } else if(inputedUser !== registeredUser) {
             alert("Login inválido!");
         } else {
             alert("Senha inválida!");
