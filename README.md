@@ -7,16 +7,7 @@ Question 1
 
 Question 2
   Basta abrir o HTML para ver o resultado do CSS.
-  OBS: Como você pediu para deixar a DIV 1 com altura e largura indefinidos eu não inseri nenhum info no CSS. Mas para melhor visualizar que a DIV 2 está realmente da forma que pediu eu sugiro alterar no CSS da seguinte forma:
-  .first-div {
-    background-color: blue;
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-    width: 500px;
-}
+  OBS: Eu inseri um script que pergunta se você gostaria de definir uma altura ou largura para a DIV 1 que consta como altura e largura indefinidos na questão, mas se você deixar zerado ou escrever algo que não seja número, ele irá deixar no tamanho padrão que a DIV ocuparia mesmo. E tem também um botão que permite alterar o tamanho da DIV após já ter passado por essas opções.
 
 Question 3
   Aqui no Git você pode ver o código e para poder visualizar como ficou eu fiz um deploy do site no Netlify, segue o link
