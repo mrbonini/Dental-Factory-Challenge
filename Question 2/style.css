@@ -8,8 +8,9 @@ body {
     background-color: blue;
     color:white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
 }
 
 .second-div {
