@@ -7,9 +7,9 @@ function getDivDimensions() {
     let myDivHeight = document.querySelector('.first-div');
     let myDivWidth = document.querySelector('.first-div');
     
-    if(divHeight <= 0 || isNaN(divHeight) == true || divHeight < 100) {
+    if(divHeight <= 0 || isNaN(divHeight) == true || divHeight < 200) {
         myDivHeight.style.height = "100%";
-    } else if(divWidth <= 0 || isNaN(divWidth) == true || divWidth < 100) {
+    } else if(divWidth <= 0 || isNaN(divWidth) == true || divWidth < 250) {
         myDivWidth.style.width = "100%";
     } else if(divHeight > 0 && divWidth > 0) {
         myDivHeight.style.height = `${divHeight}px`;
