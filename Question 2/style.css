@@ -1,7 +1,9 @@
 body {
     font-size: 0.95em;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .first-div {
@@ -18,4 +20,9 @@ body {
     height: 100px;
     width: 200px;
     color:black;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
 }
